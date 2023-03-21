@@ -94,11 +94,9 @@ header{
 /* 푸터 */
 footer{
     border-top:1px solid black;
-    height:120px;
     width:100%;
     padding:15px 0 15px 0;
     & #mb_one_line_footer{
-        padding:15px;
         line-height:30px;
         text-align:center;
         font-size:1.2rem;
@@ -119,7 +117,6 @@ footer{
         top:50%;
         transform:translateY(-50%);
         left:30px;
-        // border: 1px solid rgba(0,0,0,0.4);
         width:90px;
         height:90px;
         z-index:999;
@@ -215,7 +212,6 @@ footer{
         opacity:0;
         &.fade_in{
             opacity:0.6;
-            // display:block;
         }
     }
 }
