@@ -202,13 +202,13 @@ html {
 /* 매거진 */
 #magazine {
   width: 100vw;
-  height: 87vh;
+  height: 82vh;
   position: relative;
   overflow: hidden;
 }
 #magazine #magazine_in {
   width: 100%;
-  height: 87vh;
+  height: 100%;
   padding: 0 6% 0 6%;
   position: absolute;
 }
@@ -217,7 +217,7 @@ html {
   border-right: 1px solid #000;
   width: 26%;
   min-width: 350px;
-  height: 87vh;
+  height: 97vh;
 }
 #magazine #magazine_in .mag_main .mag_main_img:hover img {
   filter: grayscale(1);
