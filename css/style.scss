@@ -94,9 +94,11 @@ header{
 /* 푸터 */
 footer{
     border-top:1px solid black;
+    height:130px;
     width:100%;
     padding:15px 0 15px 0;
     & #mb_one_line_footer{
+        padding:15px;
         line-height:30px;
         text-align:center;
         font-size:1.2rem;

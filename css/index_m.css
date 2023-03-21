@@ -179,8 +179,9 @@
     display: none;
   }
   footer {
+    height: 110;
     margin-top: -13vh;
-    padding: 15px 10px 0px;
+    padding: 10px;
     position: fixed;
   }
   footer #mb_one_line_footer {

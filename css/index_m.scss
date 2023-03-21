@@ -9,7 +9,6 @@
                 }
             }
             & .mag_contents{
-                // padding-left:3%;
                 width:69%;
                 & .mag_contents_in{
                     padding-top:25%;
@@ -202,8 +201,9 @@
         display:none;
     }
     footer{
+        height:110;
         margin-top:-13vh;
-        padding:15px 10px 0px;
+        padding:10px;
         position:fixed;
         & #mb_one_line_footer{
             line-height:20px;
