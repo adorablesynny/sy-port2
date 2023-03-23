@@ -26,14 +26,14 @@ html{ font-size:10px;}
     top:-13vh;
     left:0;
     overflow:hidden;
-    & .slide_container{
+    .slide_container{
         width:100%;
         height:400vh;
         position: absolute;
         top:0;
         left:0;
         overflow: hidden;
-        & .slide1{
+        .slide1{
             width:100%;
             height:100vh;
             background: url("../img/main.jpg") no-repeat center center;
@@ -44,9 +44,9 @@ html{ font-size:10px;}
             &.effect{
                 animation:slide-img .5s .1s both;
             }
-            & .main_txt{
+            .main_txt{
                 opacity:0;
-                & div{
+                div{
                     text-shadow:0 0px 4px rgba(255,255,255,1);
                 }
                 &.effect{
@@ -55,7 +55,7 @@ html{ font-size:10px;}
                 }
             }
         }
-        & .slide2{
+        .slide2{
             width:100%;
             height:100vh;
             background: url("../img/1.jpg") no-repeat center center;
@@ -66,7 +66,7 @@ html{ font-size:10px;}
             &.effect{
                 animation:slide-img .5s both;
             }
-            & .main_txt{
+            .main_txt{
                 opacity:0;
                 & div{
                     color:#fff;
@@ -76,22 +76,22 @@ html{ font-size:10px;}
                     animation:slide-txt .8s .7s both;
                 }
             }
-            & div .box{
+            div .box{
                 border:1px solid #fff;
                 background-color: rgba(0,0,0,0.4);
                 &:hover{
                     background-color: rgba(255,255,255,0.8);
                     text-shadow:none;
-                    & a{
+                    a{
                         color:#000;
                     }
                 }
-                & a{
+                a{
                     color:#fff;
                 }
             }
         }
-        & .slide3{
+        .slide3{
             width:100%;
             min-height:100vh;
             background: url("../img/menu_5.jpg") no-repeat center center;
@@ -102,9 +102,9 @@ html{ font-size:10px;}
             &.effect{
                 animation:slide-img .5s both;
             }
-            & .main_txt{
+            .main_txt{
                 opacity:0;
-                & div{
+                div{
                     text-shadow:0 0px 4px rgba(255,255,255,1);
                 }
                 &.effect{
@@ -112,7 +112,7 @@ html{ font-size:10px;}
                 }
             }
         }
-        & .slide4{    
+        .slide4{    
             width:100%;
             height:100vh;
             background:url("../img/main_4.jpg");
@@ -123,9 +123,9 @@ html{ font-size:10px;}
             &.effect{
                 animation:slide-img .5s both;
             }
-            & .main_txt{
+            .main_txt{
                 opacity:0;
-                & div{
+                div{
                     text-shadow:0 0px 4px rgba(255,255,255,1);
                 }
                 &.effect{
@@ -133,7 +133,7 @@ html{ font-size:10px;}
                 }
             }
         }
-        & .txt{
+        .txt{
             position:absolute;
             bottom:40px;
             left:50%;
@@ -141,16 +141,16 @@ html{ font-size:10px;}
             text-align:center;
             z-index:2;
         }
-        & .title{
+        .title{
             font-size:2.7rem;
             margin-bottom:7px;
         }
-        & .intro{    
+        .intro{    
             font-family: 'Noto Sans KR', sans-serif;
             font-size:1.6rem;
             margin-bottom:15px;
         }
-        & .box{
+        .box{
             border:1px solid #000;
             background-color: rgba(255,255,255,0.4);
             border-radius:5px;
@@ -162,14 +162,14 @@ html{ font-size:10px;}
             &:hover{
                 background: rgba(255,255,255,0.8);
             }
-            & a{
+            a{
                 display:block;
                 font-size:1.4rem;
                 line-height:38px;
             }
         }
     }
-    & .button{
+    .button{
         z-index:999;
         width:20px;
         height:100px;
@@ -198,22 +198,22 @@ html{ font-size:10px;}
     height:77vh;
     position:relative;
     overflow:hidden;
-    & #magazine_in{
+    #magazine_in{
         width:100%;
         height:100%;
         padding:0 6% 0 6%;
         position:absolute;
-        & .mag_main{
+        .mag_main{
             float:left;
             border-right:1px solid #000;
             width:26%;
             min-width:350px;
             height:97vh;
-            & .mag_main_img {
+            .mag_main_img {
                 &:hover img{
                     filter:grayscale(1);
                 }
-            & img{
+            img{
                 width:75%;
                 height:auto;
                 margin:30% 6% 20px 0;
@@ -222,19 +222,19 @@ html{ font-size:10px;}
                 transition:all .5s;
                 }
             }
-            & .mag_main_txt{
+            .mag_main_txt{
                 text-align:center;
                 width: 75%;
-                & .mag_main_t{
+                .mag_main_t{
                     font-size:1.7rem;
                     font-weight:800;
                 }
-                & .mag_main_st{
+                .mag_main_st{
                     margin-top:10px;
                     font-size:1.6rem;
                     font-weight:500;
                 }
-                & .mag_main_it{
+                .mag_main_it{
                     margin-top:17px;
                     font-family: 'Noto Sans KR', sans-serif;
                     font-size:1.5rem;
@@ -242,27 +242,27 @@ html{ font-size:10px;}
                 }
             }
         }
-        & .mag_contents{
+        .mag_contents{
             width:74%;
             height:100%;
             position:relative;
             float:left;
             overflow-x:hidden;
-            & .mag_contents_wrap{
+            .mag_contents_wrap{
                 position: relative;
                 width:1000px;
                 height:100%;
                 display:flex;   
-                & .mag_contents_in{
+                .mag_contents_in{
                     padding-top:20%;
                     margin-left:1vw;
-                    & img{
+                    img{
                         width:100%;
                         height:auto;
                         transition:all .5s;
                     }
-                    & .mag_img {
-                        & .mag_img_box{
+                    .mag_img {
+                        .mag_img_box{
                             width:13vw;
                             height:17vw;
                             overflow:hidden;
@@ -270,19 +270,19 @@ html{ font-size:10px;}
                                 transform:scale(1.3);
                                 filter:blur(5px);
                             }
-                            & img{
+                            img{
                                 width:100%;
                                 height:100%;
                             }
                         }
-                        & .mag_in_t{
+                        .mag_in_t{
                             display:block;
                             font-size:1.6rem;
                             margin-top:10px;
                             margin-bottom:10px;
                             font-weight:500;
                         }
-                        & .mag_in_st{
+                        .mag_in_st{
                             font-size:1.4rem;
                             font-family: 'Noto Sans KR', sans-serif;
                         }
